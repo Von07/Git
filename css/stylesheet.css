@@ -9,45 +9,56 @@ body{
 #main-container{
     background-color: rgb(5, 5, 5);
    display: flex;
-    height: 450px;
-    width: 1024px;
+    height: 500px;
+    width: 1026px;
     flex-wrap: wrap;
     margin-bottom: 1000px;
     justify-content: center;
-    border: solid;
-    border-color: blue;
+   
 }
-img-ig{
-    position: absolute;
-    left: 50px;
-    top: 60px;
+#NameTag{
+    position: relative;
+    left: 325px;
+    bottom: 55px;
+}
+#personal{
+    position: relative;
+    left: 215px;
+    
+}
+#ig{
+    position: relative;
+    left: 460px;
+    top: 30px;
+    
+}
+#photographer{
+    position: relative;
+    left: 160px;
+    top: 70px;
 }
 
 li{ 
     float: left;
+    margin-right: 100px;
     color: #f2f2f2;
     text-align: center;
-    padding: 18px 20px;
+    padding: 15px 18px;
     text-decoration: none;
     font-size: 17px;
-    justify-content: left;
+    justify-content:left;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
-  
-    
-}
-#asset2{
-position: absolute;
-justify-content: center;
-margin-bottom: 100px;
-margin-left: 100px;
+    display: flex;.
+    width: 100%;
+    position: relative;   
+    left: 40px;
 }
 
-
-#second-container{
+#first-page{
     background-color: #6595BB;
     width: 1024px;
-    height: 615px;
+    height: 700px;
 }
 p{
     font-family:Courier;
@@ -59,13 +70,112 @@ p{
     float: right;
     margin-top:100px;
 }
- color: #ffffff;
+#second-container{
+    background-color: rgb(5, 5, 5);
     display: flex;
-    width: 100%;
-    height: 50px;
-    justify-content: left;
-    list-style-type: ;
-   
-     margin: top;
-    margin-right: 100px;
-    float: left;
+     height: 500px;
+     width: 1026px;
+     flex-wrap: wrap;
+     margin-bottom: 1000px;
+     justify-content: center; 
+     position: absolute;
+     top: 840px;
+
+}
+#second-page{
+    background-color: #6595BB;
+    width: 1024px;
+    height: 700px;  
+}
+#third-container{
+    background-color: rgb(5, 5, 5);
+    display: flex;
+     height: 500px;
+     width: 1026px;
+     flex-wrap: wrap;
+     margin-bottom: 1000px;
+     justify-content: center; 
+     position: absolute;
+     top: 1850px; 
+}
+#third-page{
+    background-color: #6595BB;
+    width: 1024px;
+    height: 700px;  
+} 
+#footer{
+    background-color: rgb(5, 5, 5);
+    display: flex;
+     height: 390px;
+     width: 1026px;  
+     flex-wrap: wrap;
+     margin-bottom: 1000px;
+     justify-content: center; 
+     position: absolute;
+     top: 2800px; 
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #f2f2f2;
+    font-size: 70px;
+    position: relative;
+    left: 298px;
+}
+#personal-two{
+   position: relative;
+    left: 430px;
+    top: 40px;
+
+}   
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #f2f2f2;
+    position: relative;
+    top: 130px;
+    right: 30px;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: #f2f2f2;
+    position: relative; 
+    top: 180px;
+    right: 359px; 
+}
+
+.btn1{
+transition-property: transform;
+transition-duration: 0.3s;
+transition-timing-function: ease;
+transition-delay: 0s;
+background-color: black;
+
+}
+.btn1:hover{
+transform: translateY(-10px);
+}
+.btn2{
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    background-color: black;   
+}
+.btn2:hover{
+    transform: translateY(-10px); 
+}
+.btn3{
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    background-color: black;  
+}
+.btn3:hover{
+    transform: translateY(-10px); 
+
+}
+
+#Torrecilla{
+    position: relative;
+    top: 250px;
+}
