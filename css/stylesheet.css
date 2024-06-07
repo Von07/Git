@@ -176,6 +176,48 @@ transform: translateY(-10px);
 }
 
 #Torrecilla{
-    position: relative;
-    top: 250px;
+   position: relative;
+   top: 123px;
 }
+#Delware{
+    /* position: absolute;
+    bottom: 220px;
+    right: 90px; */
+}
+
+#Zwinger{
+position: relative;
+left: 220px;
+    
+}
+#Schwangau{
+    position: relative;
+    left: 100px;
+    
+    
+}
+#Islote{
+  position: relative;
+    top: 300px;
+    right: 12px;
+}
+#Rigi{
+   position: relative;
+   top: 125px;
+   left: 98px;
+}
+#Poster{
+    position: relative;
+    bottom: 120px;
+    left: 90px;
+}
+#Shop{
+    position: relative;
+    top: 260px;
+    left: 85px;
+}
+#Hive{
+    position: relative;
+   
+}
+
